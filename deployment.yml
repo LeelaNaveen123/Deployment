@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: leelanaveen123/docker
+          image: leelanaveen123/nginx
           ports:
             - containerPort: 80
 ---

@@ -5,7 +5,7 @@ metadata:
   labels:
     app: docker
 spec:
-  replicas: 10
+  replicas: 4
   selector:
     matchLabels:
       app: docker
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: leelanaveen123/nginx
+          image: leelanaveen123/amazon
           ports:
             - containerPort: 80
 ---

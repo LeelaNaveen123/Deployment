@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: leelanaveen123/amazon
+          image: leelanaveen123/docker
           ports:
             - containerPort: 80
 ---
